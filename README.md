@@ -18,3 +18,4 @@ SELECT CD.location,
 FROM coviddeaths CD
 JOIN covidvaccinations CV 
   ON CV.iso_code = CD.iso_code;
+
